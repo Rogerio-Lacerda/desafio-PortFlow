@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',
+  sans-serif;
+  list-style: none;
+}
+
+header{
+  /* border-bottom: red solid; */
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1{
+  /* border: blue solid; */
+  width: 40%;
+  font-size: 2vw;
+}
+
+nav{
+ /* border: yellowgreen solid; */
+ display: flex;
+ width: 38%;
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex: wrap;
+}
+
+li{
+  /* border: rebeccapurple solid; */
+  opacity: 40%;
+  font-size: 1.2vw;
+  width: 4vw;
+}
+
+li:hover{
+  font-weight: 900;
+  opacity: 100%;
+  cursor: pointer;
+  /* width: 5vw; */
+}
+
+main{
+  height: 180vh;
+  width: 100%;
+}
+
+.section-fundo-main {
+  height: 87vh;
+  width: 100%;
+  background-image: url(./assets/fundo-main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.div-texto-fundo-main{
+  height: 40%;
+  width: 88%;
+  /* border: red solid; */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.texto-maior{
+ font-size: 4vw;
+}
+
+.texto-menor{
+  font-size: 1.7vw;
+  opacity: 70%;
+}
+
+.container-imagens{
+  border: red solid;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-principal-imagens{
+  border: seagreen solid;
+  height: 160vh;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-geral-imagens{
+  width: 100%;
+  height: 50vh;
+  border: sienna solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tamanho-imagens{
+  height: 100%;
+  width: 24%;
+}
