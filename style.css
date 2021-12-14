@@ -51,7 +51,7 @@ li:hover{
 }
 
 main{
-  height: 180vh;
+  height: 173vh;
   width: 100%;
 }
 
@@ -87,7 +87,7 @@ main{
 }
 
 .container-imagens{
-  border: red solid;
+  /* border: red solid; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -96,17 +96,18 @@ main{
 }
 
 .div-principal-imagens{
-  border: seagreen solid;
-  height: 160vh;
-  width: 85%;
+  /* border: seagreen solid; */
+  height: 157vh;
+  width: 88%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .div-geral-imagens{
   width: 100%;
   height: 50vh;
-  border: sienna solid;
+  /* border: sienna solid; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -115,3 +116,4 @@ main{
   height: 100%;
   width: 24%;
 }
+
