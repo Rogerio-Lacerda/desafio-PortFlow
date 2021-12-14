@@ -113,7 +113,54 @@ main{
 }
 
 .tamanho-imagens{
-  height: 100%;
+  height: 50vh;
   width: 24%;
 }
 
+footer{
+  width: 100%;
+  height: 18vh;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-footer{
+  height: 8vh;
+  width: 87%;
+  /* border: red solid; */
+}
+
+.div-icones-textos{
+  height: 100%;
+  width: 40%;
+  /* border: saddlebrown solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-icones{
+  height: 100%;
+  width: 60% ;
+  /* border: salmon solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tamanho-icones{
+  height: 4vh;
+  width: 2vw;
+  cursor: pointer;
+}
+
+.icone-face{
+  width: 1vw;
+}
+
+.texto-footer{
+  font-size: 1.2vw;
+  font-weight: 700;
+}
