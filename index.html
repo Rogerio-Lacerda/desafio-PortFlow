@@ -11,10 +11,24 @@
 </head>
 
 <body>
-  <header>
+  <header id='topo'>
     <h1>Portflow</h1>
-    <nav>
-      <ul>
+    <nav id="nav">
+      <button id="btn-mobile"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 35 172 172">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+            font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <path d="M0,172v-172h172v172z" fill="none"></path>
+            <g fill="#fff">
+              <path
+                d="M14.33333,35.83333v14.33333h143.33333v-14.33333zM14.33333,78.83333v14.33333h143.33333v-14.33333zM14.33333,121.83333v14.33333h143.33333v-14.33333z">
+              </path>
+            </g>
+          </g>
+        </svg>
+        <span id="hamburguer"></span>
+      </button>
+      <ul id="menu">
         <li>Home</li>
         <li>Blog</li>
         <li>Valores</li>
@@ -25,17 +39,17 @@
   </header>
   <main>
     <section class="section-fundo-main">
-     <div class="div-texto-fundo-main">
-       <h2 class="texto-maior">Imagine, Discuta, Desenhe.</h2>
-       <p class="texto-menor">
-         FALE CONOSCO
-       </p>
-     </div>
+      <div class="div-texto-fundo-main">
+        <h2 class="texto-maior">Imagine, Discuta, Desenhe.</h2>
+        <p class="texto-menor">
+          FALE CONOSCO
+        </p>
+      </div>
     </section>
     <section class="container-imagens">
       <div class="div-principal-imagens">
         <div class="div-geral-imagens">
-          <img  src="./assets/imagem-main1.png" alt=""class="tamanho-imagens">
+          <img src="./assets/imagem-main1.png" alt="" class="tamanho-imagens">
           <img src="./assets/imagem-main2.png" alt="" class="tamanho-imagens">
           <img src="./assets/imagem-main3.png" alt="" class="tamanho-imagens">
           <img src="./assets/imagem-main4.png" alt="" class="tamanho-imagens">
@@ -57,19 +71,23 @@
     <footer>
       <section class="section-footer">
         <div class="div-icones-textos">
-           <div class="div-icones">
-             <img src="./assets/icone-facebook.png" alt="" class="tamanho-icones icone-face">
-             <img src="./assets/icone-twiteer.png" alt="" class="tamanho-icones">
-             <img src="./assets/icone-insta.png" alt="" class="tamanho-icones">
-             <img src="./assets/icone-telegram.png" alt="" class="tamanho-icones">
-             <img src="./assets/icone-whats.png" alt="" class="tamanho-icones">
-             <img src="./assets/icone-youtube.png" alt="" class="tamanho-icones">
-           </div>
-           <p class="texto-footer">Copyright</p>
+          <div class="div-icones">
+            <img src="./assets/icone-facebook.png" alt="" class="tamanho-icones icone-face">
+            <img src="./assets/icone-twiteer.png" alt="" class="tamanho-icones">
+            <img src="./assets/icone-insta.png" alt="" class="tamanho-icones">
+            <img src="./assets/icone-telegram.png" alt="" class="tamanho-icones">
+            <img src="./assets/icone-whats.png" alt="" class="tamanho-icones">
+            <img src="./assets/icone-youtube.png" alt="" class="tamanho-icones">
+          </div>
+          <div class="div-texto-botao-footer">
+            <p class="texto-footer">Copyright</p>
+            <a href="#topo" class="btn-footer">TOPO</a>
+          </div>
         </div>
       </section>
     </footer>
   </main>
+  <script src="./js/action.js"></script>
 </body>
 
 </html>
